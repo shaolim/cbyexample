@@ -27,11 +27,11 @@ int main(void)
     --i; // pre decrement
 
     i = 10;
-    j = 5 + i++; // compute 5 + i, then increment i
+    j = 5 + i++;              // compute 5 + i, then increment i
     printf("%d, %d\n", i, j); // prints 11, 5
 
     i = 10;
-    j = 5 + ++i; // increment i, then compute 5 + i 
+    j = 5 + ++i;              // increment i, then compute 5 + i
     printf("%d, %d\n", i, j); // prints 11, 6
 
     // conditional operator

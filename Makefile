@@ -16,5 +16,17 @@ compile-operators:
 execute-operators: compile-operators
 	./out/operators.o
 
+compile-if-else:
+	gcc examples/if-else/if-else.c -o out/if-else.o
+
+execute-if-else: compile-if-else
+	./out/if-else.o
+
+compile-switch:
+	gcc examples/switch/switch.c -o out/switch.o
+
+execute-switch: compile-switch
+	./out/switch.o
+
 clean:
 	rm -rf out/*.o
