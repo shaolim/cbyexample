@@ -34,5 +34,11 @@ compile-looping:
 execute-looping: compile-looping
 	./out/looping.o
 
+compile-function:
+	gcc examples/function/function.c -o out/function.o
+
+execute-function: compile-function
+	./out/function.o
+
 clean:
 	rm -rf out/*.o

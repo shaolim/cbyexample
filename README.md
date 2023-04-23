@@ -12,6 +12,8 @@ e.g.
 
 ```
 $ make execute-hello-world
+$ make execute-variables
+$ make execute-if-else
 ```
 
 ## Example
@@ -21,7 +23,8 @@ $ make execute-hello-world
 - [Operators](examples/operators/operators.c) (operators)
 - [If Else](examples/if-else/if-else.c) (if-else)
 - [Switch](examples/switch/switch.c) (switch)
-  <!-- - [Looping](examples/looping/looping.c) -->
+- [Looping](examples/looping/looping.c) (looping)
+- [Function](examples/function/function.c) (function)
 - WIP
 
 ## References
