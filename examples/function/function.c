@@ -38,12 +38,13 @@ int main(void)
     print_world();
 }
 
-// Implementation of function prototype.
+// The following is an implementation of `substract` function prototype.
 int substract(int a, int b)
 {
     return a - b;
 }
 
+// The following is an implementation of the `print_hello` function prototype.
 void print_hello()
 {
     printf("Hello\n");
