@@ -25,6 +25,7 @@ $ make execute-if-else
 - [Switch](examples/switch/switch.c) (switch)
 - [Looping](examples/looping/looping.c) (looping)
 - [Function](examples/function/function.c) (function)
+- [Struct](examples/struct/struct.c) (struct)
 - WIP
 
 ## References

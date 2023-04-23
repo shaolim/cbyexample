@@ -40,5 +40,11 @@ compile-function:
 execute-function: compile-function
 	./out/function.o
 
+compile-struct:
+	gcc examples/struct/struct.c -o out/struct.o
+
+execute-struct: compile-struct
+	./out/struct.o
+
 clean:
 	rm -rf out/*.o
