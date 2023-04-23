@@ -28,5 +28,11 @@ compile-switch:
 execute-switch: compile-switch
 	./out/switch.o
 
+compile-looping:
+	gcc examples/looping/looping.c -o out/looping.o
+
+execute-looping: compile-looping
+	./out/looping.o
+
 clean:
 	rm -rf out/*.o

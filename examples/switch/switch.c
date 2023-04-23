@@ -32,7 +32,7 @@ int main(void)
         printf("Invalid day\n");
     }
 
-    // you can use character types because those are secretly integers themselves
+    // you can use char types because those are secretly integers themselves
     char c = 'a';
     switch (c)
     {
