@@ -40,6 +40,12 @@ compile-function:
 execute-function: compile-function
 	./out/function.o
 
+compile-pointers:
+	gcc examples/pointers/pointers.c -o out/pointers.o
+
+execute-pointers: compile-pointers
+	./out/pointers.o
+
 compile-struct:
 	gcc examples/struct/struct.c -o out/struct.o
 
