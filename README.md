@@ -26,6 +26,7 @@ $ make execute-if-else
 - [Looping](examples/looping/looping.c) (looping)
 - [Function](examples/function/function.c) (function)
 - [Pointers](examples/pointers/pointers.c) (pointers)
+- [Arrays](examples/arrays/arrays.c) (arrays)
 - [Struct](examples/struct/struct.c) (struct)
 - WIP
 

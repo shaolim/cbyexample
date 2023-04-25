@@ -46,6 +46,12 @@ compile-pointers:
 execute-pointers: compile-pointers
 	./out/pointers.o
 
+compile-arrays:
+	gcc examples/arrays/arrays.c -o out/arrays.o
+
+execute-arrays: compile-arrays
+	./out/arrays.o
+
 compile-struct:
 	gcc examples/struct/struct.c -o out/struct.o
 
