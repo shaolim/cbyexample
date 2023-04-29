@@ -27,6 +27,7 @@ $ make execute-if-else
 - [Function](examples/function/function.c) (function)
 - [Pointers](examples/pointers/pointers.c) (pointers)
 - [Arrays](examples/arrays/arrays.c) (arrays)
+- [Arrays & Pointer](examples/arrays/arrays_pointer.c) (arrays-pointer)
 - [Struct](examples/struct/struct.c) (struct)
 - WIP
 
