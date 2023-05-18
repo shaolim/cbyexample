@@ -64,5 +64,11 @@ compile-struct:
 execute-struct: compile-struct
 	./out/struct.o
 
+compile-typedef:
+	gcc examples/typedef/typedef.c -o out/typedef.o
+
+execute-typedef: compile-typedef
+	./out/typedef.o
+
 clean:
 	rm -rf out/*.o

@@ -29,6 +29,7 @@ $ make execute-if-else
 - [Arrays](examples/arrays/arrays.c) (arrays)
 - [Arrays & Pointer](examples/arrays/arrays_pointer.c) (arrays-pointer)
 - [Struct](examples/struct/struct.c) (struct)
+- [typedef](examples/typedef/typedef.c) (typedef)
 - WIP
 
 ## References
